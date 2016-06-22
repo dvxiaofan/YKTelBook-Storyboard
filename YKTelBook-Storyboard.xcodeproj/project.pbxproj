@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD38188A1D1A622B00B4699B /* YKTelBook_StoryboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3818891D1A622B00B4699B /* YKTelBook_StoryboardTests.m */; };
+		BD3818951D1A622B00B4699B /* YKTelBook_StoryboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3818941D1A622B00B4699B /* YKTelBook_StoryboardUITests.m */; };
+		BD3818B71D1A630800B4699B /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3818A31D1A630800B4699B /* AddViewController.m */; };
+		BD3818B81D1A630800B4699B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3818A51D1A630800B4699B /* AppDelegate.m */; };
+		BD3818B91D1A630800B4699B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD3818A61D1A630800B4699B /* Assets.xcassets */; };
+		BD3818BA1D1A630800B4699B /* ContactTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3818A81D1A630800B4699B /* ContactTableViewController.m */; };
+		BD3818BB1D1A630800B4699B /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3818AA1D1A630800B4699B /* EditViewController.m */; };
+		BD3818BC1D1A630800B4699B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD3818AB1D1A630800B4699B /* Info.plist */; };
+		BD3818BD1D1A630800B4699B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3818AD1D1A630800B4699B /* LoginViewController.m */; };
+		BD3818BE1D1A630800B4699B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3818AE1D1A630800B4699B /* main.m */; };
+		BD3818BF1D1A630800B4699B /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3818B11D1A630800B4699B /* MBProgressHUD+MJ.m */; };
+		BD3818C01D1A630800B4699B /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BD3818B21D1A630800B4699B /* MBProgressHUD.bundle */; };
+		BD3818C11D1A630800B4699B /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3818B41D1A630800B4699B /* MBProgressHUD.m */; };
+		BD3818C21D1A630800B4699B /* YKContactModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3818B61D1A630800B4699B /* YKContactModel.m */; };
+		BD3818C71D1A63A200B4699B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD3818C31D1A63A200B4699B /* LaunchScreen.storyboard */; };
+		BD3818C81D1A63A200B4699B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD3818C51D1A63A200B4699B /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD3818861D1A622B00B4699B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD3818641D1A622B00B4699B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD38186B1D1A622B00B4699B;
+			remoteInfo = "YKTelBook-Storyboard";
+		};
+		BD3818911D1A622B00B4699B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD3818641D1A622B00B4699B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD38186B1D1A622B00B4699B;
+			remoteInfo = "YKTelBook-Storyboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD38186C1D1A622B00B4699B /* YKTelBook-Storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YKTelBook-Storyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD3818851D1A622B00B4699B /* YKTelBook-StoryboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YKTelBook-StoryboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD3818891D1A622B00B4699B /* YKTelBook_StoryboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKTelBook_StoryboardTests.m; sourceTree = "<group>"; };
+		BD38188B1D1A622B00B4699B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD3818901D1A622B00B4699B /* YKTelBook-StoryboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YKTelBook-StoryboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD3818941D1A622B00B4699B /* YKTelBook_StoryboardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKTelBook_StoryboardUITests.m; sourceTree = "<group>"; };
+		BD3818961D1A622C00B4699B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD3818A21D1A630800B4699B /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddViewController.h; path = "YKTelBook-Storyboard/AddViewController.h"; sourceTree = "<group>"; };
+		BD3818A31D1A630800B4699B /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddViewController.m; path = "YKTelBook-Storyboard/AddViewController.m"; sourceTree = "<group>"; };
+		BD3818A41D1A630800B4699B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "YKTelBook-Storyboard/AppDelegate.h"; sourceTree = "<group>"; };
+		BD3818A51D1A630800B4699B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "YKTelBook-Storyboard/AppDelegate.m"; sourceTree = "<group>"; };
+		BD3818A61D1A630800B4699B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "YKTelBook-Storyboard/Assets.xcassets"; sourceTree = "<group>"; };
+		BD3818A71D1A630800B4699B /* ContactTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactTableViewController.h; path = "YKTelBook-Storyboard/ContactTableViewController.h"; sourceTree = "<group>"; };
+		BD3818A81D1A630800B4699B /* ContactTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactTableViewController.m; path = "YKTelBook-Storyboard/ContactTableViewController.m"; sourceTree = "<group>"; };
+		BD3818A91D1A630800B4699B /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditViewController.h; path = "YKTelBook-Storyboard/EditViewController.h"; sourceTree = "<group>"; };
+		BD3818AA1D1A630800B4699B /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditViewController.m; path = "YKTelBook-Storyboard/EditViewController.m"; sourceTree = "<group>"; };
+		BD3818AB1D1A630800B4699B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "YKTelBook-Storyboard/Info.plist"; sourceTree = "<group>"; };
+		BD3818AC1D1A630800B4699B /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = "YKTelBook-Storyboard/LoginViewController.h"; sourceTree = "<group>"; };
+		BD3818AD1D1A630800B4699B /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = "YKTelBook-Storyboard/LoginViewController.m"; sourceTree = "<group>"; };
+		BD3818AE1D1A630800B4699B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "YKTelBook-Storyboard/main.m"; sourceTree = "<group>"; };
+		BD3818B01D1A630800B4699B /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		BD3818B11D1A630800B4699B /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		BD3818B21D1A630800B4699B /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		BD3818B31D1A630800B4699B /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		BD3818B41D1A630800B4699B /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		BD3818B51D1A630800B4699B /* YKContactModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YKContactModel.h; path = "YKTelBook-Storyboard/YKContactModel.h"; sourceTree = "<group>"; };
+		BD3818B61D1A630800B4699B /* YKContactModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YKContactModel.m; path = "YKTelBook-Storyboard/YKContactModel.m"; sourceTree = "<group>"; };
+		BD3818C41D1A63A200B4699B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "YKTelBook-Storyboard/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		BD3818C61D1A63A200B4699B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "YKTelBook-Storyboard/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD3818691D1A622B00B4699B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD3818821D1A622B00B4699B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD38188D1D1A622B00B4699B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD3818631D1A622B00B4699B = {
+			isa = PBXGroup;
+			children = (
+				BD3818A21D1A630800B4699B /* AddViewController.h */,
+				BD3818A31D1A630800B4699B /* AddViewController.m */,
+				BD3818A41D1A630800B4699B /* AppDelegate.h */,
+				BD3818A51D1A630800B4699B /* AppDelegate.m */,
+				BD3818A61D1A630800B4699B /* Assets.xcassets */,
+				BD3818A71D1A630800B4699B /* ContactTableViewController.h */,
+				BD3818A81D1A630800B4699B /* ContactTableViewController.m */,
+				BD3818A91D1A630800B4699B /* EditViewController.h */,
+				BD3818AA1D1A630800B4699B /* EditViewController.m */,
+				BD3818AB1D1A630800B4699B /* Info.plist */,
+				BD3818AC1D1A630800B4699B /* LoginViewController.h */,
+				BD3818AD1D1A630800B4699B /* LoginViewController.m */,
+				BD3818AE1D1A630800B4699B /* main.m */,
+				BD3818C31D1A63A200B4699B /* LaunchScreen.storyboard */,
+				BD3818C51D1A63A200B4699B /* Main.storyboard */,
+				BD3818AF1D1A630800B4699B /* MBProgressHUD */,
+				BD3818B51D1A630800B4699B /* YKContactModel.h */,
+				BD3818B61D1A630800B4699B /* YKContactModel.m */,
+				BD3818881D1A622B00B4699B /* YKTelBook-StoryboardTests */,
+				BD3818931D1A622B00B4699B /* YKTelBook-StoryboardUITests */,
+				BD38186D1D1A622B00B4699B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD38186D1D1A622B00B4699B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD38186C1D1A622B00B4699B /* YKTelBook-Storyboard.app */,
+				BD3818851D1A622B00B4699B /* YKTelBook-StoryboardTests.xctest */,
+				BD3818901D1A622B00B4699B /* YKTelBook-StoryboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD3818881D1A622B00B4699B /* YKTelBook-StoryboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD3818891D1A622B00B4699B /* YKTelBook_StoryboardTests.m */,
+				BD38188B1D1A622B00B4699B /* Info.plist */,
+			);
+			path = "YKTelBook-StoryboardTests";
+			sourceTree = "<group>";
+		};
+		BD3818931D1A622B00B4699B /* YKTelBook-StoryboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD3818941D1A622B00B4699B /* YKTelBook_StoryboardUITests.m */,
+				BD3818961D1A622C00B4699B /* Info.plist */,
+			);
+			path = "YKTelBook-StoryboardUITests";
+			sourceTree = "<group>";
+		};
+		BD3818AF1D1A630800B4699B /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				BD3818B01D1A630800B4699B /* MBProgressHUD+MJ.h */,
+				BD3818B11D1A630800B4699B /* MBProgressHUD+MJ.m */,
+				BD3818B21D1A630800B4699B /* MBProgressHUD.bundle */,
+				BD3818B31D1A630800B4699B /* MBProgressHUD.h */,
+				BD3818B41D1A630800B4699B /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			path = "YKTelBook-Storyboard/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD38186B1D1A622B00B4699B /* YKTelBook-Storyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD3818991D1A622C00B4699B /* Build configuration list for PBXNativeTarget "YKTelBook-Storyboard" */;
+			buildPhases = (
+				BD3818681D1A622B00B4699B /* Sources */,
+				BD3818691D1A622B00B4699B /* Frameworks */,
+				BD38186A1D1A622B00B4699B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YKTelBook-Storyboard";
+			productName = "YKTelBook-Storyboard";
+			productReference = BD38186C1D1A622B00B4699B /* YKTelBook-Storyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD3818841D1A622B00B4699B /* YKTelBook-StoryboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD38189C1D1A622C00B4699B /* Build configuration list for PBXNativeTarget "YKTelBook-StoryboardTests" */;
+			buildPhases = (
+				BD3818811D1A622B00B4699B /* Sources */,
+				BD3818821D1A622B00B4699B /* Frameworks */,
+				BD3818831D1A622B00B4699B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD3818871D1A622B00B4699B /* PBXTargetDependency */,
+			);
+			name = "YKTelBook-StoryboardTests";
+			productName = "YKTelBook-StoryboardTests";
+			productReference = BD3818851D1A622B00B4699B /* YKTelBook-StoryboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD38188F1D1A622B00B4699B /* YKTelBook-StoryboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD38189F1D1A622C00B4699B /* Build configuration list for PBXNativeTarget "YKTelBook-StoryboardUITests" */;
+			buildPhases = (
+				BD38188C1D1A622B00B4699B /* Sources */,
+				BD38188D1D1A622B00B4699B /* Frameworks */,
+				BD38188E1D1A622B00B4699B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD3818921D1A622B00B4699B /* PBXTargetDependency */,
+			);
+			name = "YKTelBook-StoryboardUITests";
+			productName = "YKTelBook-StoryboardUITests";
+			productReference = BD3818901D1A622B00B4699B /* YKTelBook-StoryboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD3818641D1A622B00B4699B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xiaofan;
+				TargetAttributes = {
+					BD38186B1D1A622B00B4699B = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = V5T362FM3J;
+					};
+					BD3818841D1A622B00B4699B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BD38186B1D1A622B00B4699B;
+					};
+					BD38188F1D1A622B00B4699B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BD38186B1D1A622B00B4699B;
+					};
+				};
+			};
+			buildConfigurationList = BD3818671D1A622B00B4699B /* Build configuration list for PBXProject "YKTelBook-Storyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD3818631D1A622B00B4699B;
+			productRefGroup = BD38186D1D1A622B00B4699B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD38186B1D1A622B00B4699B /* YKTelBook-Storyboard */,
+				BD3818841D1A622B00B4699B /* YKTelBook-StoryboardTests */,
+				BD38188F1D1A622B00B4699B /* YKTelBook-StoryboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD38186A1D1A622B00B4699B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD3818BC1D1A630800B4699B /* Info.plist in Resources */,
+				BD3818C81D1A63A200B4699B /* Main.storyboard in Resources */,
+				BD3818C71D1A63A200B4699B /* LaunchScreen.storyboard in Resources */,
+				BD3818B91D1A630800B4699B /* Assets.xcassets in Resources */,
+				BD3818C01D1A630800B4699B /* MBProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD3818831D1A622B00B4699B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD38188E1D1A622B00B4699B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD3818681D1A622B00B4699B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD3818BB1D1A630800B4699B /* EditViewController.m in Sources */,
+				BD3818B81D1A630800B4699B /* AppDelegate.m in Sources */,
+				BD3818BA1D1A630800B4699B /* ContactTableViewController.m in Sources */,
+				BD3818B71D1A630800B4699B /* AddViewController.m in Sources */,
+				BD3818BF1D1A630800B4699B /* MBProgressHUD+MJ.m in Sources */,
+				BD3818BE1D1A630800B4699B /* main.m in Sources */,
+				BD3818C21D1A630800B4699B /* YKContactModel.m in Sources */,
+				BD3818BD1D1A630800B4699B /* LoginViewController.m in Sources */,
+				BD3818C11D1A630800B4699B /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD3818811D1A622B00B4699B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD38188A1D1A622B00B4699B /* YKTelBook_StoryboardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD38188C1D1A622B00B4699B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD3818951D1A622B00B4699B /* YKTelBook_StoryboardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD3818871D1A622B00B4699B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD38186B1D1A622B00B4699B /* YKTelBook-Storyboard */;
+			targetProxy = BD3818861D1A622B00B4699B /* PBXContainerItemProxy */;
+		};
+		BD3818921D1A622B00B4699B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD38186B1D1A622B00B4699B /* YKTelBook-Storyboard */;
+			targetProxy = BD3818911D1A622B00B4699B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD3818C31D1A63A200B4699B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD3818C41D1A63A200B4699B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BD3818C51D1A63A200B4699B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD3818C61D1A63A200B4699B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD3818971D1A622C00B4699B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD3818981D1A622C00B4699B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD38189A1D1A622C00B4699B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "YKTelBook-Storyboard/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dvxiaofan.YKTelBook-Storyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD38189B1D1A622C00B4699B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "YKTelBook-Storyboard/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dvxiaofan.YKTelBook-Storyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD38189D1D1A622C00B4699B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "YKTelBook-StoryboardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dvxiaofan.YKTelBook-StoryboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YKTelBook-Storyboard.app/YKTelBook-Storyboard";
+			};
+			name = Debug;
+		};
+		BD38189E1D1A622C00B4699B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "YKTelBook-StoryboardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dvxiaofan.YKTelBook-StoryboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YKTelBook-Storyboard.app/YKTelBook-Storyboard";
+			};
+			name = Release;
+		};
+		BD3818A01D1A622C00B4699B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "YKTelBook-StoryboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dvxiaofan.YKTelBook-StoryboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "YKTelBook-Storyboard";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BD3818A11D1A622C00B4699B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "YKTelBook-StoryboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dvxiaofan.YKTelBook-StoryboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "YKTelBook-Storyboard";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD3818671D1A622B00B4699B /* Build configuration list for PBXProject "YKTelBook-Storyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD3818971D1A622C00B4699B /* Debug */,
+				BD3818981D1A622C00B4699B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD3818991D1A622C00B4699B /* Build configuration list for PBXNativeTarget "YKTelBook-Storyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD38189A1D1A622C00B4699B /* Debug */,
+				BD38189B1D1A622C00B4699B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD38189C1D1A622C00B4699B /* Build configuration list for PBXNativeTarget "YKTelBook-StoryboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD38189D1D1A622C00B4699B /* Debug */,
+				BD38189E1D1A622C00B4699B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD38189F1D1A622C00B4699B /* Build configuration list for PBXNativeTarget "YKTelBook-StoryboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD3818A01D1A622C00B4699B /* Debug */,
+				BD3818A11D1A622C00B4699B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD3818641D1A622B00B4699B /* Project object */;
+}
